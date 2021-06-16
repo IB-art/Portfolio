@@ -204,10 +204,6 @@ body {
   height: 600px;
   position: relative;
   margin: 0 16px 60px;
-
-  /* border: 1px solid #46a74a;
-  box-shadow: 4px 4px 8px 0px #0b750f; */
-
   border: 1px solid #2b5f2d;
   box-shadow: 4px 4px 8px 0px #0e5510;
 }
