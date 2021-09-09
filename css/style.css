@@ -57,7 +57,7 @@ body {
   transition: all 0.5s;
   border-bottom: 2px solid transparent;
 }
-
+.menu__list-link--active,
 .menu__list-link:hover {
   border-bottom: 2px solid #0b7d40;
   color: #7fffd4;
@@ -272,6 +272,10 @@ img.mfp-img {
   background-position: center;
   padding-bottom: 50px;
   padding-top: 50px;
+}
+
+.footer__inner {
+  margin-left: 80px;
 }
 .footer__menu-list {
   display: flex;
