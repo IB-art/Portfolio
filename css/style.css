@@ -32,6 +32,7 @@ body {
 
 .header__inner {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   height: 100px;
@@ -41,6 +42,7 @@ body {
 }
 .menu__list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .menu__item {
@@ -175,14 +177,17 @@ body {
 }
 .estudio__box {
   margin-top: 60px;
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
 .estudio__img {
-  width: 180px;
+  /* width: 180px;
   height: 138px;
-  margin: 0 60px 60px 60px;
+  margin: 0 60px 60px 60px; */
+  width: 140px;
+  height: 120px;
+  margin: 0 20px 57px 20px;
 }
 
 .portfolio {
@@ -195,7 +200,7 @@ body {
 }
 .portfolio__items {
   margin-top: 60px;
-  justify-content: space-between;
+  justify-content: flex-start;
   display: flex;
   flex-wrap: wrap;
 }

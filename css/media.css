@@ -5,9 +5,6 @@
   .titulo__text {
     padding: 0 20px;
   }
-  .estudio__box {
-    justify-content: space-around;
-  }
 }
 @media (max-width: 1180px) {
   .portfolio__items {
