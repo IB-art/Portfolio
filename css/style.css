@@ -46,7 +46,7 @@ body {
 }
 
 .menu__item {
-  margin: 0 35px;
+  margin: 0 25px;
 }
 
 .menu__list-link,
@@ -182,9 +182,6 @@ body {
   flex-wrap: wrap;
 }
 .estudio__img {
-  /* width: 180px;
-  height: 138px;
-  margin: 0 60px 60px 60px; */
   width: 140px;
   height: 120px;
   margin: 0 20px 57px 20px;
@@ -200,7 +197,7 @@ body {
 }
 .portfolio__items {
   margin-top: 60px;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
 }
