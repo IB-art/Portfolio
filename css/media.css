@@ -12,6 +12,12 @@
   }
 }
 
+@media (max-width: 1050px) {
+  .menu__list-link {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 1000px) {
   .header__inner .phone {
     display: none;
@@ -250,6 +256,11 @@
   .portfolio {
     padding-bottom: 40px;
   }
+  .video__item,
+  .video__img {
+    width: 341px;
+    height: 220px;
+  }
 }
 
 @media (max-width: 390px) {
@@ -295,5 +306,10 @@
   }
   .estudio {
     padding-bottom: 5px;
+  }
+  .video__item,
+  .video__img {
+    width: 285px;
+    height: 200px;
   }
 }
