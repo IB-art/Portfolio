@@ -32,5 +32,17 @@ $(function () {
 		})
 	})
 
+	$('.menu__list-link').on('click', function (e) {
+    e.preventDefault();
+  
+    
+    $('.menu__list-link').removeClass('menu__list-link--active');
+    $(this).addClass('menu__list-link--active');
+    
+  });
+
+
+		
+
 
 });
