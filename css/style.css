@@ -553,12 +553,12 @@ body {
 /* end anim estudio__img */
 
 .portfolio {
-  background-image: url(../images/portfolio-bg.jpg);
-  background-repeat: no-repeat;
-  height: auto;
-  background-size: cover;
-  background-position: center;
+  /* background-image: url(../images/portfolio-bg.jpg);
+  background-repeat: no-repeat; */
+  /* background-size: cover;
+  background-position: center; */
   padding-bottom: 100px;
+  height: auto;
 }
 .portfolio__items {
   margin-top: 60px;
