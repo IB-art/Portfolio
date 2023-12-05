@@ -46,6 +46,26 @@
   .estudio__line-3 {
     width: 330px;
   }
+
+  .footer__menu-cont {
+    font-size: 30px;
+  }
+
+  .email,
+  .phone {
+    font-size: 24px;
+  }
+
+  .footer__menu-email::before {
+    width: 38px;
+    height: 20px;
+    background-size: cover;
+  }
+
+  .footer__menu-email,
+  .footer__menu-phone {
+    padding-left: 50px;
+  }
 }
 
 @media (max-width: 850px) {

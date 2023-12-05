@@ -465,6 +465,7 @@ body {
   transform: translate(100%, 0px);
   opacity: 0;
   text-align: center;
+  line-height: 145%;
 }
 .titulo__text._active {
   transform: translate(0px, 0px);
