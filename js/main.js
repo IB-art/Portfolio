@@ -42,6 +42,28 @@ $(function () {
   });
 
 
+
+	$('.product-one__tabs .titulo__title').on('click', function(event) {
+    var id = $(this).attr('data-id');
+      $('.product-one__tabs').find('.tab-item').removeClass('active-tab').hide();
+      $('.product-one__tabs .tabs').find('.titulo__title').removeClass('active');
+      $(this).addClass('active');
+      $('#'+id).addClass('active-tab').fadeIn();
+      return false;
+    });
+
+
+		$('.gallery__inner').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+				preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+			},
+		});
 		
 
 
