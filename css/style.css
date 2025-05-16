@@ -133,7 +133,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 700px;
   position: relative;
 }
 
@@ -305,7 +305,30 @@ body {
   transition: all 0.8s ease 0.8s;
 }
 
-.titulo {
+.img-tit {
+  position: absolute;
+  width: 96%;
+  bottom: -26px;
+}
+
+.about p {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 26px;
+  line-height: 33px;
+  color: #c8c8c8;
+}
+
+.about p span {
+  margin-bottom: 14px;
+  font-size: 28px;
+  line-height: 33px;
+  display: inline-block;
+}
+
+.titulo,
+.about {
   background-image: url(../images/titulo-bg.jpg);
   background-repeat: no-repeat;
   height: auto;
@@ -626,12 +649,16 @@ body {
 /* end anim certif */
 
 .arrow {
-  display: flex;
-  justify-content: flex-end;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }
+
 .certificados__btn {
   width: 45px;
-  height: 43px;
+  height: 45px;
+  display: block;
 }
 
 .estudio__inner-box {

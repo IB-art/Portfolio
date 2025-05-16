@@ -16,6 +16,14 @@
   .menu__list-link {
     font-size: 24px;
   }
+
+  .about p {
+    font-size: 24px;
+  }
+
+  .about p span {
+    font-size: 26px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -91,6 +99,14 @@
     margin-left: 0;
     margin-right: 0;
   }
+
+  .about p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .about p span {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -146,7 +162,7 @@
   .menu__list {
     display: block;
     position: absolute;
-    top: 50px;
+    top: 70px;
     left: 0;
     right: 0;
     background-color: #050505;
@@ -252,6 +268,17 @@
   .top__title-item-1-a {
     position: absolute;
     margin-left: -50px;
+  }
+
+  .about p {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about p span {
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 26px;
   }
 }
 
