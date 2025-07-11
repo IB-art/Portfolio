@@ -27,7 +27,7 @@ body {
   line-height: 28px;
   color: #f8f7f7;
   background-color: #000;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .titulo__inner-text {
