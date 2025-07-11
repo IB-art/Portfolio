@@ -27,6 +27,7 @@ body {
   line-height: 28px;
   color: #f8f7f7;
   background-color: #000;
+  overflow: hidden;
 }
 
 .titulo__inner-text {
@@ -696,7 +697,7 @@ body {
 .arrow {
   position: fixed;
   bottom: 20px;
-  /* right: 20px; */
+  right: 20px;
   z-index: 1000;
 }
 
