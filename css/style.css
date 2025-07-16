@@ -27,6 +27,7 @@ body {
   line-height: 28px;
   color: #f8f7f7;
   background-color: #000;
+  overflow-x: hidden;
   /* overflow: hidden; */
 }
 
@@ -720,6 +721,12 @@ body {
   height: 201px;
   margin: 0 45px 60px;
   border-radius: 0;
+}
+
+.certificados__btn-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .footer {
