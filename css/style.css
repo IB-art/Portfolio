@@ -53,7 +53,7 @@ body {
 }
 
 /* start anim phone */
-.header__phone {
+/* .header__phone {
   transform: translate(0px, -180%);
   opacity: 0;
 }
@@ -61,53 +61,53 @@ body {
   transform: translate(0px, 0px);
   opacity: 1;
   transition: all 0.8s ease 0s;
-}
+} */
 /* end anim phone */
 
 /* start anim-menu */
 .menu__item-1 {
   /* transform: translate(395%, 0px); */
-  transform: translateX(100%);
+  /* transform: translateX(100%);
   opacity: 0;
-  transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s; */
 }
-.menu__item-1._active {
+/* .menu__item-1._active {
   transform: translate(0px, 0px);
   opacity: 1;
   transition: all 0.8s ease 0.4s;
-}
+} */
 
 .menu__item-2 {
   /* transform: translate(395%, 0px); */
-  transform: translateX(100%);
+  /* transform: translateX(100%);
   opacity: 0;
-  transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s; */
 }
-.menu__item-2._active {
+/* .menu__item-2._active {
   transform: translate(0px, 0px);
   opacity: 1;
   transition: all 0.8s ease 0.6s;
-}
+} */
 
 .menu__item-3 {
   /* transform: translate(395%, 0px); */
-  transform: translateX(100%);
+  /* transform: translateX(100%);
   opacity: 0;
-  transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s; */
 }
-.menu__item-3._active {
+/* .menu__item-3._active {
   transform: translate(0px, 0px);
   opacity: 1;
   transition: all 0.8s ease 0.8s;
-}
+} */
 
 .menu__item-4 {
   /* transform: translate(470%, 0px); */
-  transform: translateX(100%);
+  /* transform: translateX(100%);
   opacity: 0;
-  transition: all 0.8s ease 0s;
+  transition: all 0.8s ease 0s; */
 }
-.menu__item-4._active {
+/* .menu__item-4._active {
   transform: translate(0px, 0px);
   opacity: 1;
   transition: all 0.8s ease 1s;
@@ -142,7 +142,7 @@ body {
   transform: translate(0px, 0px);
   opacity: 1;
   transition: all 0.8s ease 1.6s;
-}
+} */
 /* end anim-menu */
 
 .menu__list-link,
