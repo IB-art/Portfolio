@@ -32,14 +32,35 @@ $(function () {
 		})
 	})
 
-	$('.menu__list-link').on('click', function (e) {
-    e.preventDefault();
+	// $('.menu__list-link').on('click', function (e) {
+  //   e.preventDefault();
   
+    
+  //   $('.menu__list-link').removeClass('menu__list-link--active');
+  //   $(this).addClass('menu__list-link--active');
+    
+  // });
+
+	$('.menu__list-link').on('click', function (e) {
+  const href = $(this).attr('href');
+
+  // Если это якорь (начинается с #), отменяем переход
+  if (href.startsWith('#')) {
+    e.preventDefault();
     
     $('.menu__list-link').removeClass('menu__list-link--active');
     $(this).addClass('menu__list-link--active');
-    
-  });
+
+    // Прокрутка к нужному блоку, если нужно:
+    const target = $(href);
+    if (target.length) {
+      $('html, body').animate({ scrollTop: target.offset().top }, 800);
+    }
+  }
+
+  // если это внешняя ссылка — ничего не делаем (пусть работает переход)
+});
+
 
 
 
