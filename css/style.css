@@ -51,11 +51,15 @@ body {
   flex-wrap: wrap;
   gap: 20px;
 }
+.menu__item-6 .menu__list-link {
+  color: #949a68;
+}
 
 .menu__list-link,
 .phone {
   font-size: 26px;
   line-height: 28px;
+  /* color: #88e7c7; */
   color: #37b58b;
   padding-bottom: 5px;
   transition: all 0.5s;
@@ -64,8 +68,9 @@ body {
 .menu__list-link--active,
 .menu__list-link:hover,
 .phone:hover {
-  border-bottom: 2px solid #0b7d40;
-  color: #0b7d40;
+  border-bottom: 2px solid #37b58b;
+  /* color: #37b58b; */
+  color: #affae1;
 }
 
 .top {
@@ -265,6 +270,22 @@ body {
   color: #c8c8c8;
 }
 
+.titulo__item .youtube span {
+  color: #949a68;
+  cursor: pointer;
+  position: relative;
+}
+
+.titulo__item .youtube span::after {
+  content: "";
+  position: absolute;
+  background: #949a68;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+}
+
 .titulo,
 .about {
   background-image: url(../images/titulo-bg.jpg);
@@ -277,7 +298,9 @@ body {
 }
 
 .tabs {
+  display: flex;
   text-align: center;
+  justify-content: space-around;
 }
 
 .titulo__title {
@@ -287,23 +310,12 @@ body {
   text-align: center;
   margin-bottom: 20px;
   padding-bottom: 5px;
-  position: relative;
   display: inline-block;
   cursor: pointer;
 }
 
-.titulo__title.active::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: #0b7d40;
-  bottom: 0;
-  left: 0;
-}
-
-.titulo__title + .titulo__title {
-  margin-left: 140px;
+.titulo__title.active {
+  color: #37b58b;
 }
 
 /* start anim titulo */
@@ -523,11 +535,30 @@ body {
 }
 
 .videos-btn a {
-  color: #fffdfd;
+  color: #e2e2e2;
   font-size: 28px;
   letter-spacing: 2px;
   font-weight: 700;
   cursor: pointer;
+}
+.videos-btn a span {
+  color: #949a68;
+  font-size: 28px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  cursor: pointer;
+  /* text-decoration: underline; */
+  position: relative;
+}
+
+.videos-btn a span::after {
+  content: "";
+  position: absolute;
+  background: #949a68;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
 }
 
 /* start anim certif */

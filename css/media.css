@@ -107,6 +107,14 @@
   .about p span {
     font-size: 24px;
   }
+
+  .tabs {
+    flex-wrap: wrap;
+  }
+
+  .tabs .titulo__title {
+    width: 100%;
+  }
 }
 
 @media (max-width: 800px) {
