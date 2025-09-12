@@ -39,7 +39,6 @@
   .menu__list.menu__list--active {
     transform: translateY(0);
     z-index: 1;
-    /* background-color: #2b4b21c2; */
   }
 
   .menu {
@@ -54,7 +53,6 @@
     left: 0;
     right: 0;
     background-color: #2b4b21c2;
-    /* background-color: #050505; */
     text-align: center;
     padding: 65px 0;
     transform: translateY(-500px);
