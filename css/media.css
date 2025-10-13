@@ -8,6 +8,10 @@
   .menu__list {
     margin-left: 60px;
   }
+  .habilidades {
+    flex-wrap: wrap;
+    margin-left: 30px;
+  }
 }
 
 @media (max-width: 850px) {
@@ -17,8 +21,8 @@
     width: 40px;
     height: 24px;
     border: none;
-    border-top: 2px solid #06e70f;
-    border-bottom: 2px solid #06e70f;
+    border-top: 3px solid #06e70f;
+    border-bottom: 3px solid #06e70f;
     background-color: transparent;
     position: relative;
     z-index: 5;
@@ -30,7 +34,7 @@
     content: "";
     position: absolute;
     width: 40px;
-    height: 2px;
+    height: 3px;
     background-color: #06e70f;
     left: 0;
     top: 9px;
@@ -104,11 +108,23 @@
   .videos::before {
     top: -295px;
   }
+  .hero-content h1 {
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 690px) {
   .hero-content h1 {
     font-size: 40px;
+    /* margin-left: 0; */
+  }
+
+  h2 {
+    font-size: 22px;
   }
 
   .hero-content__p {
@@ -120,14 +136,10 @@
     font-size: 24px;
   }
 
-  .habilidades {
-    flex-wrap: wrap;
-  }
-
-  .habilidades img {
+  /* .habilidades img {
     width: 92px;
     height: 60px;
-  }
+  } */
 
   h3,
   h3.active {
@@ -144,8 +156,11 @@
     font-size: 18px;
     line-height: 20px;
   }
+  .hero-content__p p {
+    margin-bottom: 0px;
+  }
 
-  .menu__btn {
+  /* .menu__btn {
     border-top: 3px solid #070807;
     border-bottom: 3px solid #070807;
   }
@@ -153,10 +168,14 @@
   .menu__btn::before {
     height: 3px;
     background-color: #070807;
-  }
+  } */
 }
 
 @media (max-width: 540px) {
+  .hero-content h1 {
+    /* margin-top: -70px; */
+    line-height: 45px;
+  }
   .portfolio__item {
     width: 305px;
     height: 550px;
@@ -193,13 +212,15 @@
 
   .hero-content h1 {
     font-size: 34px;
-    margin-bottom: 30px;
-    margin-top: 0px;
+    margin-bottom: 10px;
+    /* margin-top: -35px; */
   }
 
   .hero-content__p {
+    width: 90%;
     font-size: 18px;
     line-height: 24px;
+    margin-bottom: 5px;
   }
 
   .menu__list-link {
@@ -213,11 +234,29 @@
 }
 
 @media (max-width: 420px) {
+  .header__container {
+    height: 96vh;
+  }
+
+  .hero-content {
+    height: 90vh;
+  }
+
   .hero-content h1 {
     font-size: 26px;
     margin-bottom: 15px;
-    margin-top: 25px;
+    margin-left: 0;
   }
+
+  .hero-content h1 span {
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
   .hero-content__p {
     font-size: 14px;
     line-height: 20px;
