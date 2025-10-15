@@ -68,7 +68,7 @@ body {
   height: 93vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .hero-content h1 {
@@ -77,11 +77,9 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: normal;
-  margin-bottom: 15px;
   color: #fffe84;
   text-shadow: 2px 2px #333;
-  margin-top: 50px;
-  margin-left: -200px;
+  margin: 90px 0 15px -200px;
 }
 
 .hero-content h1 span {
@@ -114,7 +112,7 @@ h2 {
 }
 
 .hero-content__p p {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   /* text-indent: 30px; */
 }
 
@@ -157,18 +155,24 @@ h2 {
   display: none;
 }
 
+.habilidades-box {
+  padding: 30px 0;
+  background: #0e2b0e;
+}
+
 .habilidades {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
-  justify-content: flex-end;
-  margin-right: 30px;
+  justify-content: center;
+  margin: 0 30px;
 }
 
 .habilidades img {
-  width: 65px;
-  height: 50px;
+  width: 80px;
+  height: 60px;
   border-radius: 5px;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 /* portfolio */

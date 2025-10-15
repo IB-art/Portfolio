@@ -8,10 +8,10 @@
   .menu__list {
     margin-left: 60px;
   }
-  .habilidades {
+  /* .habilidades {
     flex-wrap: wrap;
     margin-left: 30px;
-  }
+  } */
 }
 
 @media (max-width: 850px) {
@@ -120,17 +120,17 @@
 @media (max-width: 690px) {
   .hero-content h1 {
     font-size: 40px;
-    /* margin-left: 0; */
+    margin-left: -55px;
   }
 
   h2 {
     font-size: 22px;
   }
 
-  .hero-content__p {
+  /* .hero-content__p {
     font-size: 18px;
     line-height: 26px;
-  }
+  } */
 
   .menu__list-link {
     font-size: 24px;
@@ -156,9 +156,9 @@
     font-size: 18px;
     line-height: 20px;
   }
-  .hero-content__p p {
+  /* .hero-content__p p {
     margin-bottom: 0px;
-  }
+  } */
 
   /* .menu__btn {
     border-top: 3px solid #070807;
@@ -217,10 +217,11 @@
   }
 
   .hero-content__p {
-    width: 90%;
+    margin-top: 50px;
+    /* width: 90%; */
     font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 5px;
+    /* line-height: 24px;
+    margin-bottom: 5px; */
   }
 
   .menu__list-link {
@@ -234,32 +235,33 @@
 }
 
 @media (max-width: 420px) {
-  .header__container {
+  /* .header__container {
     height: 96vh;
   }
 
   .hero-content {
     height: 90vh;
-  }
+  } */
 
   .hero-content h1 {
-    font-size: 26px;
+    /* font-size: 26px; */
     margin-bottom: 15px;
     margin-left: 0;
   }
 
   .hero-content h1 span {
-    font-size: 20px;
+    /* font-size: 20px; */
     margin-left: 0;
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .hero-content__p {
-    font-size: 14px;
-    line-height: 20px;
+    width: 90%;
+    font-size: 18px;
+    line-height: 24px;
   }
 
   h3,
