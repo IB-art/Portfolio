@@ -5,24 +5,20 @@
 }
 
 @media (max-width: 900px) {
-  .menu__list {
-    margin-left: 60px;
+  .header {
+    margin-top: 0;
   }
-  /* .habilidades {
-    flex-wrap: wrap;
-    margin-left: 30px;
-  } */
-}
-
-@media (max-width: 850px) {
+  .header__inner {
+    position: absolute;
+  }
   .menu__btn {
     display: block;
     cursor: pointer;
     width: 40px;
     height: 24px;
     border: none;
-    border-top: 3px solid #06e70f;
-    border-bottom: 3px solid #06e70f;
+    border-top: 3px solid #75abd6;
+    border-bottom: 3px solid #75abd6;
     background-color: transparent;
     position: relative;
     z-index: 5;
@@ -35,7 +31,7 @@
     position: absolute;
     width: 40px;
     height: 3px;
-    background-color: #06e70f;
+    background-color: #75abd6;
     left: 0;
     top: 9px;
   }
@@ -56,12 +52,11 @@
     margin-left: 0;
     left: 0;
     right: 0;
-    background-color: #2b4b21c2;
+    background-color: #243968;
     text-align: center;
     padding: 65px 0;
     transform: translateY(-500px);
     transition: all 0.5s;
-    border: 5px solid #4caf50;
   }
 
   .menu__item {
@@ -115,6 +110,30 @@
   h2 {
     font-size: 22px;
   }
+
+  .header-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0px 0 15px -100px;
+  }
+
+  h1 span {
+    font-size: 22px;
+  }
+
+  .header-content p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  h2 {
+    margin: 0px 0 25px 0;
+  }
 }
 
 @media (max-width: 690px) {
@@ -133,7 +152,7 @@
   } */
 
   .menu__list-link {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   /* .habilidades img {
@@ -235,14 +254,6 @@
 }
 
 @media (max-width: 420px) {
-  /* .header__container {
-    height: 96vh;
-  }
-
-  .hero-content {
-    height: 90vh;
-  } */
-
   .hero-content h1 {
     /* font-size: 26px; */
     margin-bottom: 15px;
@@ -310,5 +321,27 @@
   .footer__menu-phone a,
   .footer__menu-list li {
     font-size: 14px;
+  }
+
+  .header-content p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  h1 span {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .menu__btn {
+    left: 10px;
   }
 }
