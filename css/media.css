@@ -23,7 +23,7 @@
     position: relative;
     z-index: 5;
     outline: none;
-    left: 50px;
+    /* left: 50px; */
   }
 
   .menu__btn::before {
@@ -33,7 +33,8 @@
     height: 3px;
     background-color: #75abd6;
     left: 0;
-    top: 9px;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .menu__list.menu__list--active {
@@ -119,7 +120,6 @@
   h1 {
     font-size: 30px;
     line-height: 40px;
-    margin: 0px 0 15px -100px;
   }
 
   h1 span {
@@ -137,9 +137,8 @@
 }
 
 @media (max-width: 690px) {
-  .hero-content h1 {
+  h1 {
     font-size: 40px;
-    margin-left: -55px;
   }
 
   h2 {
@@ -191,7 +190,7 @@
 }
 
 @media (max-width: 540px) {
-  .hero-content h1 {
+  h1 {
     /* margin-top: -70px; */
     line-height: 45px;
   }
@@ -228,19 +227,24 @@
     width: 70px;
     height: 45px;
   }
-
-  .hero-content h1 {
-    font-size: 34px;
-    margin-bottom: 10px;
-    /* margin-top: -35px; */
+  h1 {
+    margin-top: 90px;
+    font-size: 24px;
+    line-height: 36px;
   }
 
-  .hero-content__p {
-    margin-top: 50px;
-    /* width: 90%; */
+  h1 span {
     font-size: 18px;
-    /* line-height: 24px;
-    margin-bottom: 5px; */
+  }
+
+  /* h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  } */
+
+  .hero-content p {
+    margin-top: 50px;
+    font-size: 18px;
   }
 
   .menu__list-link {
@@ -254,22 +258,16 @@
 }
 
 @media (max-width: 420px) {
-  .hero-content h1 {
-    /* font-size: 26px; */
+  h1 {
+    margin-top: 0;
     margin-bottom: 15px;
-    margin-left: 0;
-  }
-
-  .hero-content h1 span {
-    /* font-size: 20px; */
-    margin-left: 0;
   }
 
   h2 {
     font-size: 20px;
   }
 
-  .hero-content__p {
+  .hero-content p {
     width: 90%;
     font-size: 18px;
     line-height: 24px;
@@ -326,15 +324,6 @@
   .header-content p {
     font-size: 16px;
     line-height: 20px;
-  }
-
-  h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-
-  h1 span {
-    font-size: 18px;
   }
 
   h2 {
